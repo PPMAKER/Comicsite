@@ -1,0 +1,127 @@
+*{
+	display: inline-grid;
+	float: center;
+	font-family: 'Concert One', cursive;
+}
+
+body{
+	background-image: url("https://wallpaperbro.com/img/160783.jpg"); 
+	margin: 15px;
+	padding: 15%;
+}
+.img {
+    position: relative;
+    float: left;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border-radius: 5px;
+}
+.s1 {
+	background-color: #e4e4e4;
+}
+.s2 {
+	background-color: #f4f4f4;
+}
+.slides1{margin-top:16px!important;margin-bottom:16px!important}
+.slides2{margin-left:auto;margin-right:auto}
+.slides2{max-width:980px}
+#navgeral{
+display: flex; /*nosso container será flex*/
+flex-direction: column;/*direção do conteúdo*/
+align-items: center;/*Alinhamento dos itens*/
+background-color: #001; /*cor de fundo*/
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+#navgeral ul{
+display: flex;
+padding: 0;/*espaçamento interno*/
+margin: 0;/*espaçamento externo*/
+width: 100%;/*largura em 70% da pagina*/
+list-style: none;/*remove marcadores de lista*/
+color: #f1f1f1; /*cor da fonte*/
+}
+
+#navgeral ul li{
+display: flex;
+flex-direction: row;/*direção do conteúdo*/
+width: 100%;/*largura do elemento em 100%*/
+height: 50px;/*algura do elemento*/
+line-height: 50px;/*alinhamento horizontal*/
+text-align: center;/*texto centralizado*/
+}
+
+#navgeral ul li a{
+width: 100%;/*largura do elemento em 100%*/
+text-decoration: none;/*remove underline do link*/
+color: #fff;
+}
+
+#navgeral ul li a:hover{
+background-color: #fff;/*cor de fundo*/
+color: #000;
+text-decoration: underline;
+border-bottom: 2px black solid;
+border-radius: 5px;
+}
+footer{
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+textarea:focus {
+  border: 3px solid #555;
+}
+textarea {
+  width: 70%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #000;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #000;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: black;
+}
